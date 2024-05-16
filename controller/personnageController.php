@@ -18,6 +18,7 @@ class PersonnageController {
     }
 
     public function ajouterPersonnage(){
+        echo "toto";
         $this->infosPersonnage->ajouterPerso();
     }
 }
